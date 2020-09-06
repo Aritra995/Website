@@ -8,10 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stylesheet.css">
-    <link href="images/node.png" type="image/x-icon" rel="shortcut icon" />
+    <link href="images/nodejs-logo-cli.png" type="image/x-icon" rel="shortcut icon" />
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top" style="font-size: large;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand">
+                <img src="images/node.png" alt="nodejs-logo-cli" height="40px" width="40px">
+            </a>
+            <a href="#" class="navbar-brand mr-auto">Ristorante con Fusion</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="aboutus.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <header class="jumbotron">
         <div class="container">
@@ -27,7 +46,7 @@
     </header>
 
     <div class="container">
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center row-hover">
             <div class="col-12 col-sm-4 col-md-3 order-sm-last">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
@@ -38,7 +57,7 @@
         </div>
 
 
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center row-hover">
             <div class="col-12 col-sm-4 col-md-3 order-sm-first">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -48,7 +67,7 @@
             </div>
         </div>
 
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center row-hover">
             <div class="col-12 col-sm-4 col-md-3 order-sm-last">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -67,7 +86,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
